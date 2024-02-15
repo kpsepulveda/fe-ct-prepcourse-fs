@@ -10,9 +10,6 @@ do {
   veces++;
 } while (veces < 8);
 
-return num;
-
-
-console.log(doWhile(0));  40 
+return num;  40 
 
 module.exports = doWhile;

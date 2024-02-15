@@ -18,8 +18,8 @@ for (var i = 0; i < maxLength; i++) {
 return result;
 
 
-console.log(combine("abc", "", "123"));      "a1b2c3"
-console.log(combine("abc", "12345", ""));    "a1b2c345"
-console.log(combine("abc", "12345", "67"));  "a16b27c345"
+combine("abc", "", "123"); "a1b2c3"
+combine("abc", "12345", "");  "a1b2c345"
+combine("abc", "12345", "67"); "a16b27c345"
 
 module.exports = combine;

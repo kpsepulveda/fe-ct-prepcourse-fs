@@ -5,13 +5,9 @@ function esEntero(num) {
   // Ejemplo: (-10) ---> true
   // De lo contrario, retorna false.
   // Tu código:
-}return Number.isInteger(num);
+  return true;
+}
 
-
-console.log(esEntero(0.8)); false
-console.log(esEntero(1)); true
-console.log(esEntero(-10)); true
-console.log(esEntero(3.14)); false
 
 
 module.exports = esEntero;
